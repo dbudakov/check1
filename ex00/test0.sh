@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cc ./ft*.c
+
 res1="./a.out"
 res=$(./a.out)
 exp=./a.out
