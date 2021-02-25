@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cc ./ft_*.c
+
 ./a.out > ./file
 echo -ne '' > ./test
 printf "%s == %s --> " "./a.out" "''"
